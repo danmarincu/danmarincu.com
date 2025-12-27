@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Dan Marincu — AWS Serverless & DevOps Engineer (Freelancer). I build modern, secure, scalable serverless solutions on AWS."
+    />
+    <meta name="theme-color" content="#0b1220" />
+
+    <title>danmarincu.com — AWS Serverless & DevOps Freelancer</title>
+
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <meta property="og:title" content="Dan Marincu — AWS Serverless & DevOps Freelancer" />
+    <meta
+      property="og:description"
+      content="I design and deliver secure AWS serverless solutions, CI/CD, and IaC (CDK/Terraform)."
+    />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="#home" aria-label="danmarincu.com home">
+          <span class="brand__dot" aria-hidden="true"></span>
+          <span class="brand__text">danmarincu.com</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navLinks">
+            Menu
+          </button>
+          <div class="nav__links" id="navLinks">
+            <a class="nav__link" href="#home" data-i18n="nav.home">Home</a>
+            <a class="nav__link" href="#about" data-i18n="nav.about">About</a>
+            <a class="nav__link" href="#solutions" data-i18n="nav.solutions">Solutions</a>
+            <a class="nav__link" href="#contact" data-i18n="nav.contact">Contact</a>
+          </div>
+        </nav>
+
+        <div class="lang">
+          <button class="lang__btn" type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button class="lang__btn" type="button" data-lang="ro" aria-pressed="false">RO</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="home" class="main">
+      <section class="hero section">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow" data-i18n="hero.eyebrow">AWS Serverless & DevOps Engineer</p>
+            <h1 class="hero__title" data-i18n="hero.title">
+              I build secure, scalable serverless solutions on AWS.
+            </h1>
+            <p class="hero__subtitle" data-i18n="hero.subtitle">
+              Freelancer focused on Lambda, API Gateway, DynamoDB, Step Functions, EventBridge, IaC, and CI/CD.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#contact" data-i18n="hero.ctaPrimary">Let’s talk</a>
+              <a class="btn btn--ghost" href="#solutions" data-i18n="hero.ctaSecondary">See projects</a>
+            </div>
+
+            <ul class="badges" aria-label="Highlights">
+              <li class="badge">AWS Serverless</li>
+              <li class="badge">IaC (CDK / Terraform)</li>
+              <li class="badge">CI/CD</li>
+              <li class="badge">Security-minded</li>
+            </ul>
+          </div>
+
+          <aside class="hero__card" aria-label="Quick profile">
+            <div class="card">
+              <div class="card__top">
+                <div class="avatar" aria-hidden="true">DM</div>
+                <div>
+                  <div class="card__name">Dan Marincu</div>
+                  <div class="card__role" data-i18n="hero.cardRole">
+                    AWS Serverless & DevOps • Freelancer
+                  </div>
+                </div>
+              </div>
+
+              <dl class="meta">
+                <div class="meta__row">
+                  <dt data-i18n="hero.meta.locationLabel">Location</dt>
+                  <dd data-i18n="hero.meta.locationValue">Romania (EU)</dd>
+                </div>
+                <div class="meta__row">
+                  <dt data-i18n="hero.meta.focusLabel">Focus</dt>
+                  <dd data-i18n="hero.meta.focusValue">AWS Serverless, IaC, CI/CD</dd>
+                </div>
+                <div class="meta__row">
+                  <dt data-i18n="hero.meta.emailLabel">Email</dt>
+                  <dd><a href="mailto:dan@danmarincu.com">dan@danmarincu.com</a></dd>
+                </div>
+                <div class="meta__row">
+                  <dt data-i18n="hero.meta.linkedinLabel">LinkedIn</dt>
+                  <dd>
+                    <a href="https://www.linkedin.com/in/dan-marincu321/" target="_blank" rel="noreferrer">
+                      dan-marincu321
+                    </a>
+                  </dd>
+                </div>
+              </dl>
+
+              <div class="card__actions">
+                <a class="btn btn--small btn--primary" href="#contact" data-i18n="hero.cardCta">
+                  Contact
+                </a>
+                <a class="btn btn--small btn--ghost" href="#about" data-i18n="hero.cardCta2">
+                  About me
+                </a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2 data-i18n="about.title">About</h2>
+            <p class="section__sub" data-i18n="about.subtitle">
+              AWS serverless enthusiast with a strong DevOps and security mindset.
+            </p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="panel">
+              <h3 data-i18n="about.profileTitle">Profile</h3>
+              <p data-i18n="about.profileBody">
+                I help teams ship cloud-native backends on AWS using serverless-first architectures, Infrastructure as
+                Code, and reliable CI/CD pipelines. I enjoy building systems that are maintainable, observable, and
+                secure by default.
+              </p>
+              <p class="muted" data-i18n="about.profileBody2">
+                Recent work includes security reviews and adoption support for GenAI services (e.g., Amazon Bedrock),
+                plus multi-cloud integrations (Azure + AWS).
+              </p>
+            </div>
+
+            <div class="panel">
+              <h3 data-i18n="about.skillsTitle">Key skills</h3>
+              <ul class="list">
+                <li data-i18n="about.skills1">AWS Serverless: Lambda, API Gateway, DynamoDB, Step Functions, EventBridge</li>
+                <li data-i18n="about.skills2">Infrastructure as Code: AWS CDK (TypeScript), Terraform / Terraform Cloud</li>
+                <li data-i18n="about.skills3">CI/CD: GitHub Actions, Azure DevOps</li>
+                <li data-i18n="about.skills4">Languages: Python, Node.js</li>
+                <li data-i18n="about.skills5">Domains: Telco / 5G, Automotive</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="grid grid--3">
+            <div class="panel panel--compact">
+              <h3 data-i18n="about.certsTitle">AWS certifications</h3>
+              <ul class="list list--compact">
+                <li data-i18n="about.certs1">DevOps Engineer – Professional</li>
+                <li data-i18n="about.certs2">SysOps Administrator – Associate</li>
+                <li data-i18n="about.certs3">Developer – Associate</li>
+                <li data-i18n="about.certs4">AI Practitioner</li>
+              </ul>
+            </div>
+            <div class="panel panel--compact">
+              <h3 data-i18n="about.experienceTitle">Recent roles</h3>
+              <ul class="list list--compact">
+                <li data-i18n="about.exp1">AWS DevOps Engineer — Omnisource (Contractor), 2025–present</li>
+                <li data-i18n="about.exp2">Cloud Application Architect — AWS, 2020–2025</li>
+                <li data-i18n="about.exp3">Test Automation Engineer — Intel, 2019–2020</li>
+              </ul>
+            </div>
+            <div class="panel panel--compact">
+              <h3 data-i18n="about.valuesTitle">How I work</h3>
+              <ul class="list list--compact">
+                <li data-i18n="about.values1">Pragmatic architecture & clear tradeoffs</li>
+                <li data-i18n="about.values2">Security & least privilege by design</li>
+                <li data-i18n="about.values3">Automation-first mindset</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="solutions" class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2 data-i18n="solutions.title">Projects</h2>
+            <p class="section__sub" data-i18n="solutions.subtitle">
+              A selection of real-world work across AWS security, serverless, CI/CD, and automation.
+            </p>
+          </div>
+
+          <div class="cards">
+            <article class="tile">
+              <h3 data-i18n="solutions.p1Title">AWS security enablement for GenAI adoption</h3>
+              <p data-i18n="solutions.p1Body">
+                Security team work supporting reviews and safe adoption of new AWS services in the GenAI space.
+              </p>
+              <ul class="list list--compact">
+                <li data-i18n="solutions.p1b1">Security reviews for Amazon Bedrock / Agents prior to org-wide adoption</li>
+                <li data-i18n="solutions.p1b2">Guardrails, IAM patterns, and deployment guidance via IaC</li>
+                <li data-i18n="solutions.p1b3">Collaboration with stakeholders across AWS and Azure integrations</li>
+              </ul>
+              <ul class="pill-list" aria-label="Technologies">
+                <li>Security reviews</li>
+                <li>IAM</li>
+                <li>Bedrock</li>
+                <li>IaC</li>
+              </ul>
+            </article>
+
+            <article class="tile">
+              <h3 data-i18n="solutions.p2Title">Multi-cloud integration (Azure + AWS)</h3>
+              <p data-i18n="solutions.p2Body">
+                Integration support for enterprise environments spanning identity providers and API management patterns.
+              </p>
+              <ul class="list list--compact">
+                <li data-i18n="solutions.p2b1">Identity provider integrations and cross-cloud access patterns</li>
+                <li data-i18n="solutions.p2b2">API management integrations, including pathways to GenAI services</li>
+                <li data-i18n="solutions.p2b3">Operationally safe rollout with CI/CD and review gates</li>
+              </ul>
+              <ul class="pill-list" aria-label="Technologies">
+                <li>Azure</li>
+                <li>AWS</li>
+                <li>Identity</li>
+                <li>APIM</li>
+              </ul>
+            </article>
+
+            <article class="tile">
+              <h3 data-i18n="solutions.p3Title">Telco / 5G test automation on AWS</h3>
+              <p data-i18n="solutions.p3Body">
+                Architected cloud solutions and DevOps practices for telco customers running testing and 5G workloads on AWS.
+              </p>
+              <ul class="list list--compact">
+                <li data-i18n="solutions.p3b1">Infrastructure as Code + repeatable environments for test systems</li>
+                <li data-i18n="solutions.p3b2">CI/CD/CT practices to improve release confidence and speed</li>
+                <li data-i18n="solutions.p3b3">Integrations with test automation frameworks and network simulators</li>
+              </ul>
+              <ul class="pill-list" aria-label="Technologies">
+                <li>IaC</li>
+                <li>CI/CD</li>
+                <li>Telco / 5G</li>
+                <li>AWS</li>
+              </ul>
+            </article>
+
+            <article class="tile">
+              <h3 data-i18n="solutions.p4Title">Data core ops automation & observability</h3>
+              <p data-i18n="solutions.p4Body">
+                Automation work to improve operational visibility and incident response in telco packet core environments.
+              </p>
+              <ul class="list list--compact">
+                <li data-i18n="solutions.p4b1">Automated health checks and data collection for operational insights</li>
+                <li data-i18n="solutions.p4b2">Python-based analysis and reporting workflows</li>
+                <li data-i18n="solutions.p4b3">Dashboards and KPI visualization with Grafana / Splunk</li>
+              </ul>
+              <ul class="pill-list" aria-label="Technologies">
+                <li>Python</li>
+                <li>Grafana</li>
+                <li>Splunk</li>
+                <li>Telco</li>
+              </ul>
+            </article>
+
+            <article class="tile">
+              <h3 data-i18n="solutions.p5Title">Test automation for modem validation</h3>
+              <p data-i18n="solutions.p5Body">
+                Developed Python automation to validate devices and integrate with network simulator APIs.
+              </p>
+              <ul class="list list--compact">
+                <li data-i18n="solutions.p5b1">Automation scripts for repeatable test execution</li>
+                <li data-i18n="solutions.p5b2">Integration with simulator APIs (e.g., Anritsu, Rohde & Schwarz)</li>
+                <li data-i18n="solutions.p5b3">Extending automation frameworks to increase coverage</li>
+              </ul>
+              <ul class="pill-list" aria-label="Technologies">
+                <li>Python</li>
+                <li>Automation</li>
+                <li>APIs</li>
+                <li>Testing</li>
+              </ul>
+            </article>
+
+            <article class="tile">
+              <h3 data-i18n="solutions.p6Title">Reusable IaC + CI/CD delivery templates</h3>
+              <p data-i18n="solutions.p6Body">
+                Built repeatable delivery patterns for teams to ship infrastructure and workloads safely.
+              </p>
+              <ul class="list list--compact">
+                <li data-i18n="solutions.p6b1">AWS CDK (TypeScript) and Terraform patterns for consistent environments</li>
+                <li data-i18n="solutions.p6b2">Pipelines with quality gates (GitHub Actions / Azure DevOps)</li>
+                <li data-i18n="solutions.p6b3">Deployment safety: approvals, promotion flows, and rollbacks</li>
+              </ul>
+              <ul class="pill-list" aria-label="Technologies">
+                <li>CDK</li>
+                <li>Terraform</li>
+                <li>GitHub Actions</li>
+                <li>Azure DevOps</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2 data-i18n="contact.title">Contact</h2>
+            <p class="section__sub" data-i18n="contact.subtitle">
+              Tell me about your project. I typically reply within 24–48 hours.
+            </p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="panel">
+              <h3 data-i18n="contact.directTitle">Direct</h3>
+              <p class="muted" data-i18n="contact.directBody">
+                Email works best. If you prefer, you can also reach out on LinkedIn.
+              </p>
+              <ul class="list">
+                <li>
+                  <strong data-i18n="contact.emailLabel">Email:</strong>
+                  <a href="mailto:dan@danmarincu.com">dan@danmarincu.com</a>
+                </li>
+                <li>
+                  <strong data-i18n="contact.linkedinLabel">LinkedIn:</strong>
+                  <a href="https://www.linkedin.com/in/dan-marincu321/" target="_blank" rel="noreferrer">
+                    linkedin.com/in/dan-marincu321
+                  </a>
+                </li>
+              </ul>
+              <p class="hint" data-i18n="contact.hint">
+                Prefer a quick intro call? Send your timezone + availability.
+              </p>
+            </div>
+
+            <div class="panel">
+              <h3 data-i18n="contact.formTitle">Message</h3>
+              <form id="contactForm" class="form">
+                <label class="field">
+                  <span data-i18n="contact.form.name">Name</span>
+                  <input name="name" autocomplete="name" required />
+                </label>
+
+                <label class="field">
+                  <span data-i18n="contact.form.email">Email</span>
+                  <input name="email" type="email" autocomplete="email" required />
+                </label>
+
+                <label class="field">
+                  <span data-i18n="contact.form.subject">Subject</span>
+                  <input name="subject" required />
+                </label>
+
+                <label class="field">
+                  <span data-i18n="contact.form.message">Message</span>
+                  <textarea name="message" rows="5" required></textarea>
+                </label>
+
+                <div class="form__actions">
+                  <button class="btn btn--primary" type="submit" data-i18n="contact.form.send">
+                    Send
+                  </button>
+                  <p class="form__note" data-i18n="contact.form.note">
+                    This opens your email client (no data is stored on this website).
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__copy">© <span id="year"></span> Dan Marincu. All rights reserved.</p>
+        <div class="footer__links">
+          <a href="#home" data-i18n="footer.top">Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
+
+
