@@ -9,7 +9,7 @@ const I18N = {
     "nav.contact": "Contact",
 
     "hero.eyebrow": "AWS Serverless & DevOps Engineer",
-    "hero.title": "Building secure, scalable serverless solutions on AWS.",
+    "hero.title": "Building secure and scalable serverless solutions on AWS",
     "hero.subtitle":
       "Freelancer focused on Lambda, API Gateway, DynamoDB, Step Functions, EventBridge, IaC, and CI/CD.",
     "hero.ctaPrimary": "Let’s talk",
@@ -118,7 +118,7 @@ const I18N = {
     "nav.contact": "Contact",
 
     "hero.eyebrow": "Inginer AWS Serverless & DevOps",
-    "hero.title": "Construirea soluțiilor serverless sigure și scalabile pe AWS.",
+    "hero.title": "Construire de soluții serverless sigure și scalabile pe AWS",
     "hero.subtitle":
       "Freelancer axat pe Lambda, API Gateway, DynamoDB, Step Functions, EventBridge, IaC și CI/CD.",
     "hero.ctaPrimary": "Hai să discutăm",
