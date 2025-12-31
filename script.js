@@ -9,7 +9,7 @@ const I18N = {
     "nav.contact": "Contact",
 
     "hero.eyebrow": "AWS Serverless & DevOps Engineer",
-    "hero.title": "I build secure, scalable serverless solutions on AWS.",
+    "hero.title": "Building secure, scalable serverless solutions on AWS.",
     "hero.subtitle":
       "Freelancer focused on Lambda, API Gateway, DynamoDB, Step Functions, EventBridge, IaC, and CI/CD.",
     "hero.ctaPrimary": "Let’s talk",
