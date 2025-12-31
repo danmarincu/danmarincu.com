@@ -118,7 +118,7 @@ const I18N = {
     "nav.contact": "Contact",
 
     "hero.eyebrow": "Inginer AWS Serverless & DevOps",
-    "hero.title": "Construiesc soluții serverless sigure și scalabile pe AWS.",
+    "hero.title": "Construirea soluțiilor serverless sigure și scalabile pe AWS.",
     "hero.subtitle":
       "Freelancer axat pe Lambda, API Gateway, DynamoDB, Step Functions, EventBridge, IaC și CI/CD.",
     "hero.ctaPrimary": "Hai să discutăm",
