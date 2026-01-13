@@ -21,8 +21,7 @@
           n=0;n<o.length;n++)g(u,o[n]);
       e._i.push([i,s,a])
     },
-    e.init("PH_PROJECT_API_KEY",{
-      api_host:"https://app.posthog.com"
+    e.init("phc_FfrKj7HUOyD9I2avo4ZLl2UXLiHwCy4vwj3DWfXeirA",{
+      api_host:"https://eu.i.posthog.com"
     })
     }(document,window.posthog||[]);
-    
